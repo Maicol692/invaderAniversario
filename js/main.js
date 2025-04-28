@@ -250,7 +250,7 @@ class Game {
                 Fue un pequeño juego para recordar unos momentos felices y especiales que tuvimos juntos
             </h1>
             <p style="font-size: 1.8rem; text-align: center; max-width: 700px; text-shadow: 2px 2px 6px rgba(0,0,0,0.4);">
-                ¡Siempre te amaré más allá de las estrellas! 🌟💖
+                ¡Siempre te amaré sin importar nada! estare siempre a tu lado y nunca me voy alejar 
             </p>
         `;
 
