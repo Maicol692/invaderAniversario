@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Nave vs Invasores</title>
+    
+    <!-- Fuente moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Estilos para imágenes y menús -->
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 15px;
+            display: block;
+            margin: 0 auto;
+        }
+        #loveMenu {
+            text-align: center;
+            padding: 20px;
+        }
+        .loveBox {
+            background-color: #fff0f5;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+            display: inline-block;
+            max-width: 90%;
+        }
+        #loveText img {
+            margin-top: 10px;
+        }
+        #closeBtn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        #closeBtn:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Menú especial para mostrar frases -->
+    <div id="loveMenu" style="display: none;">
+        <div class="loveBox">
+            <h1 id="loveTitle">¡TE AMO 💖!</h1>
+            <p id="loveText"></p> <!-- Aquí dentro se insertan imágenes/textos -->
+            <button id="closeBtn">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Mensaje final -->
+    <div id="finalMessage" style="display: none;">
+        <h1>¡Juego terminado!</h1>
+        <p>Fue un pequeño juego para recordar unos momentos felices y especiales que tuvimos juntos.</p>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
+
+
